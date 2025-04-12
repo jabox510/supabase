@@ -1,4 +1,7 @@
 package com.example.Supabase2.Repository;
 
-public interface ProveedorRepository {
+import com.example.Supabase2.Model.Proveedor;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ProveedorRepository extends JpaRepository<Proveedor, Long> {
 }
